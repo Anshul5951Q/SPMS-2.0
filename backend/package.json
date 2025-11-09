@@ -4,7 +4,7 @@
   "description": "Backend server for parking management system",
   "main": "src/index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "node dist/index.js",
     "dev": "tsc -b && node dist/index.js",
     "build": "tsc",
     "seed": "sudo ts-node src/scripts/seedData.ts"
