@@ -7,7 +7,7 @@
     "start": "ts-node src/index.ts",
     "dev": "tsc -b && node dist/index.js",
     "build": "tsc",
-    "seed": "npx ts-node src/scripts/seedData.ts"
+    "seed": "sudo ts-node src/scripts/seedData.ts"
   },
   "dependencies": {
     "@types/stripe": "^8.0.416",
